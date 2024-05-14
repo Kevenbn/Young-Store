@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">YOUNG STORE</string>
+    <string name="Login_Text">Login</string>
+    <string name="Login_User">Usuário:</string>
+    <string name="Login_Pass">Senha:</string>
+    <string name="Text_Register">Se não possui conta, cadastre-se <font color="#ff0000 / #f00">aqui.</font></string>
+    <string name="Text_Button_Login">Entrar</string>
+    <string name="Register_name">Nome Completo:</string>
+    <string name="Register_Email">Email:</string>
+    <string name="Register_Email_Conf">Confirme seu e-mail:</string>
+    <string name="Register_Pass">Senha:</string>
+    <string name="Register_Pass_Conf">Confirme sua senha:</string>
+    <string name="Register_Create">Criar cadastro</string>
+    <string name="Register_Pass_info">Precisa ter entre 8 e 20 caracteres</string>
+    <string name="Str_Logo">Logo</string>
+</resources>

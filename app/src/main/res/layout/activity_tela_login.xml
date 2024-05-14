@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaRegisto">
+
+    <ImageView
+        android:id="@+id/Iv_Logo"
+        android:layout_width="412dp"
+        android:layout_height="336dp"
+        android:layout_marginTop="-10dp"
+        android:contentDescription="@string/Str_Logo"
+        android:src="@drawable/logo_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Tv_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/Login_Text"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Iv_Logo" />
+
+    <TextView
+        android:id="@+id/Tv_User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/Login_User"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tv_Login" />
+
+    <TextView
+        android:id="@+id/Tv_Senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/Login_Pass"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tv_User" />
+
+    <EditText
+        android:id="@+id/Et_Login"
+        android:layout_width="206dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rectangle_user_pass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toEndOf="@+id/Tv_User"
+        app:layout_constraintTop_toBottomOf="@+id/Tv_Login"
+        app:srcCompat="@drawable/rectangle_user_pass"
+        android:autofillHints="password"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/Et_LPass"
+        android:layout_width="206dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rectangle_user_pass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toEndOf="@+id/Tv_Senha"
+        app:layout_constraintTop_toBottomOf="@+id/Tv_Login"
+        app:srcCompat="@drawable/rectangle_user_pass" />
+
+    <Button
+        android:id="@+id/Bt_Register"
+        android:layout_width="215dp"
+        android:layout_height="68dp"
+        android:background="@android:drawable/list_selector_background"
+        android:backgroundTint="#00FFFFFF"
+        android:text="@string/Text_Register"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bt_Login"
+        app:layout_constraintVertical_bias="0.836" />
+
+    <Button
+        android:id="@+id/Bt_Login"
+        android:layout_width="153dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="96dp"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:backgroundTint="@color/black"
+        android:text="@string/Text_Button_Login"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Et_LPass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
