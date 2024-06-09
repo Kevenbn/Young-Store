@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <array name="Imagens_Sapatos">
+        <item>@drawable/icon_tenisazulemarron</item>
+        <item>@drawable/icon_tenisbrancoemarron</item>
+        <item>@drawable/icon_teniscinza</item>
+        <item>@drawable/icon_tenispreto</item>
+        <item>@drawable/icon_tenispretoeacinza</item>
+        <item>@drawable/icon_tenispretoeazul</item>
+        <item>@drawable/icon_tenisvermelho</item>
+    </array>
+
+    <array name="Imagens_Camisas">
+        <item>@drawable/icon_camisapoloamarela</item>
+        <item>@drawable/icon_camisapoloazul</item>
+        <item>@drawable/icon_camisapolobranca</item>
+        <item>@drawable/icon_camisapolovermelha</item>
+        <item>@drawable/icon_kit_de_5_camisa_polo_masculina_algodao</item>
+        <item>@drawable/icon_kit_4_camisetas_masculinas_basicas</item>
+        <item>@drawable/icon_camisa_masculina_canelada_gola_alta</item>
+    </array>
+
+    <array name="Imagens_Calças">
+        <item>@drawable/icon_calcajeansazuldokit</item>
+        <item>@drawable/icon_calcajeansbracadokit</item>
+        <item>@drawable/icon_calcajeanspretadokit</item>
+        <item>@drawable/kit_calcasjeans</item>
+        <item>@drawable/kit_calcasjeansdobradas</item>
+    </array>
+    <array name="array_produtos_imagens_aleatorias">
+        <item>@drawable/icon_kit_4_camisetas_masculinas_basicas</item>
+        <item>@drawable/icon_kit_com_10_cuecas_boxer_microfibra</item>
+        <item>@drawable/icon_camisa_masculina_canelada_gola_alta</item>
+        <item>@drawable/icon_kit_de_5_camisa_polo_masculina_algodao</item>
+        <item>@drawable/icon_tenisbrancoemarron</item>
+        <item>@drawable/icon_calcajeansbracadokit</item>
+    </array>
+
+    <string-array name="array_produtos_titulos">
+        <item>Kit 4 Camisetas Masculinas Básicas</item>
+        <item>Kit com 10 Cuecas Boxer Microfibra</item>
+        <item>icon_camisa_masculina_canelada_gola_alta</item>
+        <item>Kit de 5 camisa polo masculina algodão</item>
+        <item>Kit com 10 Cuecas Boxer Microfibra</item>
+        <item>KIT 3 Calça Jeans Masculina Skinny Original</item>
+    </string-array>
+    <string-array name="array_produtos_precos">
+        <item>R$ 52,99</item>
+        <item>R$ 38,98</item>
+        <item>R$ 55,99</item>
+        <item>R$ 143,91</item>
+        <item>R$ 58,90</item>
+        <item>R$ 109,99</item>
+    </string-array>
+
+    <string-array name="array_produtos_descricao">
+        <item>Calça Jeans Pentagono Masculino Se fossemos explicar o que a Calça Jeans Pentagono Masculino em uma única palavra, essa palavra seria: estilo. Com seu corte skinny e lavagem moderna, é perfeita para qualquer tipo de evento ou até mesmo no dia a dia.
+Kit 3 pecas
+Tamanho
+36 ATE 48</item>
+    </string-array>
+</resources>
