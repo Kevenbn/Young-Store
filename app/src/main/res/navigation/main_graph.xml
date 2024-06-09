@@ -5,25 +5,25 @@
     android:id="@+id/main_graph"
     app:startDestination="@id/menu_home">
 
-    <fragment
+    <activity
         android:id="@+id/menu_home"
-        android:name="com.nascimentokeven.youngstore.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
-    <fragment
+        android:name="com.nascimentokeven.youngstore.TelaProdutos"
+        android:label="activity_produtos"
+        tools:layout="@layout/activity_produtos" />
+    <activity
         android:id="@+id/menu_categorias"
-        android:name="com.nascimentokeven.youngstore.CategoriasFragment"
-        android:label="fragment_categorias"
-        tools:layout="@layout/fragment_categorias" />
-    <fragment
+        android:name="com.nascimentokeven.youngstore.TelaCategorias"
+        android:label="activity_categorias"
+        tools:layout="@layout/activity_categorias" />
+    <activity
         android:id="@+id/menu_carrinho"
-        android:name="com.nascimentokeven.youngstore.CarrinhoFragment"
-        android:label="fragment_carrinho"
-        tools:layout="@layout/fragment_carrinho" />
+        android:name="com.nascimentokeven.youngstore.TelaCarrinho"
+        android:label="activity_carrinho"
+        tools:layout="@layout/activity_carrinho" />
 
-    <fragment
+    <activity
         android:id="@+id/menu_usuario"
-        android:name="com.nascimentokeven.youngstore.UsuarioFragment"
-        android:label="fragment_usuario"
-        tools:layout="@layout/fragment_usuario" />
+        android:name="com.nascimentokeven.youngstore.TelaConta"
+        android:label="activity_conta"
+        tools:layout="@layout/activity_screen_account" />
 </navigation>

@@ -13,4 +13,18 @@
     <string name="Register_Create">Criar cadastro</string>
     <string name="Register_Pass_info">Precisa ter entre 8 e 20 caracteres</string>
     <string name="Str_Logo">Logo</string>
+    <string name="produto_imagem">produto_imagem</string>
+    <string name="produto_titulo">produto_titulo\n</string>
+    <string name="produto_preco">produto_preco</string>
+
+    <string name="menu_bottom_bar_home">Home</string>
+    <string name="menu_bottom_bar_categorias">Categorias</string>
+    <string name="menu_bottom_bar_carrinho">Carrinho</string>
+    <string name="menu_bottom_bar_conta">Conta</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="categorias">Categorias</string>
+
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="Txt_Pesquisar">Pesquisar</string>
 </resources>

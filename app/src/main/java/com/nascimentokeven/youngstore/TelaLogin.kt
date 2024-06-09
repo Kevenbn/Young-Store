@@ -5,8 +5,9 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import androidx.activity.ComponentActivity
+import androidx.appcompat.app.AppCompatActivity
 
-class TelaLogin : ComponentActivity() {
+class TelaLogin : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tela_login)
@@ -16,7 +17,7 @@ class TelaLogin : ComponentActivity() {
         val etPass = findViewById<EditText>(R.id.Et_LPass)
 
         tvRegister.setOnClickListener() {
-            val intent = Intent(this, TelaRegisto::class.java)
+            val intent = Intent(this, TelaProdutos::class.java)
             startActivity(intent)
         }
     }

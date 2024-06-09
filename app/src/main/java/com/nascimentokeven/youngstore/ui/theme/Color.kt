@@ -1,4 +1,4 @@
-package com.nascimentokeven.youngstore.ui.theme
+package com.nascimentokeven.youngstore.adapters.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

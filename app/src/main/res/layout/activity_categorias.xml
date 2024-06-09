@@ -6,18 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".TelaCategorias">
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/Barra_teste2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_container_produtos"
+        app:itemIconTint="@drawable/item_seletor"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/menu_main" />
+
     <TextView
         android:id="@+id/Tv_Category"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/Test_verde"
-        android:text="     Categorias"
+        android:text="Categorias"
         android:textColor="@color/white"
         android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@id/Barra_teste2" />
 
     <Button
         android:id="@+id/Bt_Category_Man"
@@ -69,70 +81,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Bt_Category_Sport" />
 
-    <Button
-        android:id="@+id/Bt_Category_Home"
-        android:layout_width="35dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/icon_home"
-        app:layout_constraintEnd_toStartOf="@+id/Bt_Category_Menu"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/Iv_Category_BackImButtons" />
-
-    <Button
-        android:id="@+id/Bt_Category_Menu"
-        android:layout_width="35dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/icon_menu"
-        app:layout_constraintEnd_toStartOf="@+id/Bt_Category_Fav"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/Bt_Category_Home"
-        app:layout_constraintTop_toTopOf="@+id/Iv_Category_BackImButtons" />
-
-    <Button
-        android:id="@+id/Bt_Category_Fav"
-        android:layout_width="35dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/icon_fav"
-        app:layout_constraintEnd_toStartOf="@+id/Bt_Category_Carrinho"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/Bt_Category_Menu"
-        app:layout_constraintTop_toTopOf="@+id/Iv_Category_BackImButtons" />
-
-    <Button
-        android:id="@+id/Bt_Category_Carrinho"
-        android:layout_width="35dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/icon_carrinho_de_compras"
-        app:layout_constraintEnd_toStartOf="@+id/Bt_Category_Account"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/Bt_Category_Fav"
-        app:layout_constraintTop_toTopOf="@+id/Iv_Category_BackImButtons" />
-
-    <Button
-        android:id="@+id/Bt_Category_Account"
-        android:layout_width="35dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/icon_account"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/Bt_Category_Carrinho"
-        app:layout_constraintTop_toTopOf="@+id/Iv_Category_BackImButtons" />
-
-    <ImageView
-        android:id="@+id/Iv_Category_BackImButtons"
-        android:layout_width="425dp"
-        android:layout_height="74dp"
-        android:layout_marginTop="95dp"
-        android:src="@android:drawable/bottom_bar"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Bt_Category_Shoes"
-        tools:visibility="visible" />
 </androidx.constraintlayout.widget.ConstraintLayout>
