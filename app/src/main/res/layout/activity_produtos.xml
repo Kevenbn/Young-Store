@@ -29,53 +29,53 @@
         app:layout_constraintVertical_bias="0.0"
         tools:srcCompat="@tools:sample/avatars" />
 
-    <View
+    <RelativeLayout
         android:id="@+id/Bg_Produtos_Titulo"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_margin="20dp"
-        android:background="@drawable/bg_item_produto"
-        app:layout_constraintTop_toBottomOf="@+id/fundo_imagens_detalhes"
-        tools:layout_editor_absoluteX="0dp" />
-
-    <TextView
-        android:id="@+id/acProdutoTvtitulo"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/produto_titulo"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@+id/Bg_Produtos_Titulo"
-        app:layout_constraintStart_toStartOf="@+id/Bg_Produtos_Titulo"
-        app:layout_constraintTop_toTopOf="@+id/Bg_Produtos_Titulo" />
-
-    <TextView
-        android:id="@+id/acProdutoTvPreco"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/produto_preco"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/Bg_Produtos_Titulo"
-        app:layout_constraintEnd_toEndOf="@+id/Bg_Produtos_Titulo"
-        app:layout_constraintStart_toStartOf="@+id/Bg_Produtos_Titulo"
-        app:layout_constraintTop_toBottomOf="@+id/acProdutoTvtitulo" />
-
-    <View
-        android:id="@+id/Bg_Carrinho_Descrição"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
         android:layout_margin="20dp"
         android:background="@drawable/bg_item_produto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Bg_Produtos_Titulo" />
+        app:layout_constraintTop_toBottomOf="@+id/fundo_imagens_detalhes">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="teste"
-        app:layout_constraintEnd_toEndOf="@+id/Bg_Carrinho_Descricao"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/Bg_Carrinho_Descrição"
-        app:layout_constraintTop_toTopOf="@+id/Bg_Carrinho_Descrição" />
+        <TextView
+            android:id="@+id/acProdutoTvtitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:layout_marginStart="149dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="-129dp"
+            android:layout_marginBottom="10dp"
+            android:gravity=""
+            android:text="@string/produto_titulo"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/acProdutoTvPreco"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/acProdutoTvtitulo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/produto_preco"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/acProdutoTvtitulo"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_carrinho" />
+    </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "884582141172",
+    "project_id": "young-store-77fc1",
+    "storage_bucket": "young-store-77fc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884582141172:android:a92fa96148279a690aa2a1",
+        "android_client_info": {
+          "package_name": "com.nascimentokeven.youngstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAasrZ6k2dVpVxJWiciAgx3Tqng5t2zFp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

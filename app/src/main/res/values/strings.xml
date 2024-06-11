@@ -17,6 +17,7 @@
     <string name="produto_titulo">produto_titulo\n</string>
     <string name="produto_preco">produto_preco</string>
 
+
     <string name="menu_bottom_bar_home">Home</string>
     <string name="menu_bottom_bar_categorias">Categorias</string>
     <string name="menu_bottom_bar_carrinho">Carrinho</string>
@@ -27,4 +28,5 @@
 
     <string name="title_activity_team">TeamActivity</string>
     <string name="Txt_Pesquisar">Pesquisar</string>
+    <string name="imagemconta">Imagemconta</string>
 </resources>

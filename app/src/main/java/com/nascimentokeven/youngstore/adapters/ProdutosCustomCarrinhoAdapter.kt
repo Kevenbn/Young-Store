@@ -18,7 +18,6 @@ class ProdutosCustomCarrinhoAdapter(private val produtos: List<ProdutosDetalhes>
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val tvTitulo: TextView = view.findViewById(R.id.Tv_Carrinho_Titulo_produto)
         val tvpreco: TextView = view.findViewById(R.id.Tv_Carrinho_Preco_produto)
-        val tvdescricao: TextView = view.findViewById(R.id.Bg_Carrinho_Descricao)
         val tvimagem: ImageView = view.findViewById(R.id.Iv_Carrinho_Produto)
         val btcarrinho: ImageButton = view.findViewById(R.id.Ib_Carrinho_Produto)
     }
@@ -34,7 +33,6 @@ class ProdutosCustomCarrinhoAdapter(private val produtos: List<ProdutosDetalhes>
 
         viewHolder.tvTitulo.text = produto.Titulo
         viewHolder.tvpreco.text = produto.Preco
-        viewHolder.tvdescricao.text = produto.Descricao
         viewHolder.tvimagem.setImageResource(produto.Imagem)
         viewHolder.btcarrinho.findViewById<ImageButton>(R.id.Ib_Carrinho_Produto)
 

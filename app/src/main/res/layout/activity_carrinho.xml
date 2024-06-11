@@ -33,16 +33,79 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/Barra_teste2" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewCarrinhoProdutos"
+    <RelativeLayout
+        android:id="@+id/Ll_Carrinho_Bg_Produtos"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:background="@drawable/bg_item_produto"
-        android:layout_margin="20dp"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Tv_Carrinho_Title">
 
-    </androidx.recyclerview.widget.RecyclerView>
+        <ImageButton
+            android:id="@+id/Iv_Carrinho_Produto"
+            android:layout_width="176dp"
+            android:layout_height="197dp"
+            android:foregroundGravity="center"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/icon_kit_4_camisetas_masculinas_basicas" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="142dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="3dp"
+            android:text="Finalizar compra" />
+
+        <TextView
+            android:id="@+id/Tv_Carrinho_Titulo_produto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:layout_marginStart="173dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="144dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/Iv_Carrinho_Produto"
+            android:text="Titulo"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/Iv_Carrinho_Produto"
+            app:layout_constraintEnd_toStartOf="@+id/Iv_Carrinho_Produto"
+            app:layout_constraintHorizontal_bias="0.43"
+            app:layout_constraintStart_toEndOf="@+id/Iv_Carrinho_Produto"
+            app:layout_constraintTop_toBottomOf="@+id/Iv_Carrinho_Produto"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/Tv_Carrinho_Preco_produto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginEnd="245dp"
+            android:layout_marginBottom="140dp"
+            android:layout_toStartOf="@+id/button"
+            android:layout_toEndOf="@+id/Iv_Carrinho_Produto"
+            android:text="Preço"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="26sp" />
+
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

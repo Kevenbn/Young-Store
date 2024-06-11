@@ -21,8 +21,8 @@ class TelaCarrinho : AppCompatActivity() {
         val produtoImagemId = intent.getIntExtra("TAG_IMAGEM", 0)
 
         val tvTitulo = findViewById<TextView>(R.id.Tv_Carrinho_Titulo_produto)
-        val tvPreco = findViewById<TextView>(R.id.acProdutoTvPreco)
-        val ivImagem = findViewById<ImageView>(R.id.acProdutoIvimagem)
+        val tvPreco = findViewById<TextView>(R.id.Tv_Carrinho_Preco_produto)
+        val ivImagem = findViewById<ImageView>(R.id.Iv_Carrinho_Produto)
 
         tvTitulo.text = produtoTitulo.toString()
         tvPreco.text = produtoPreco.toString()
